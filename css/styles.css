@@ -114,3 +114,19 @@ h3 {
 	left: 32px;
 	top: 28px;
 	color: white;
+}
+/*section 2*/
+.now {
+	display: inline-block;
+	width: 760px;
+	height: 430px;
+	background-color: gray;
+	margin-left: 70px;
+}
+.now2 {
+	display: inline-block;
+	margin-top: : 100px;
+    margin-left: 70px;
+	width: 760px;
+	height: 430px;
+}
