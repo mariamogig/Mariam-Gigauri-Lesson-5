@@ -1,21 +1,28 @@
 /*header styles*/
 .header{
-	background-color: #EBEDED;
 	padding: 20px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: 10;
+	background-color: white;
 }
 .logo {
 	display: inline-block;
 	margin-right: 60px;
+	color: #FA6980;
+	vertical-align: top;
+	padding-top: 22px;
+	font-family: 'Oswald', sans-serif;
 }
 .navigation {
 	display: inline-block;
 	position: fixed;
 	vertical-align: middle;
+	vertical-align: top;
+	padding-top: 16px;
+	font-family: 'Oswald', sans-serif;
 }
 .nav-li {display: inline-block;
 	margin-right: 20px;
@@ -50,6 +57,7 @@ h3 {
 	font-size: 24px;
 	margin-bottom: 40px;
 	color: black;
+	font-family: 'Oswald', sans-serif;
 }
 .description1 {
 	font-size: 13px;
@@ -137,4 +145,42 @@ h3 {
 .img4 {
 	margin-top: 102px;
 	margin-bottom: 102px;
+}
+/*footer styles*/
+.footer {
+	background-color: #A6ADB4;
+	height: 200px;
+	margin-top: 37px;
+}
+.block1, 
+.block2,
+.block3,
+.block4,
+.block5,
+.block6 {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 59px;
+    color: #CBD0D3;
+    font-family: 'Oswald', sans-serif;
+}
+.block1 {
+	margin-left: 70px;
+	margin-right: 89px;
+	color: white;
+}
+.block3 {
+	margin-right: 80px;
+	margin-left: 80px;
+}
+.block5 {
+	margin-right: 110px;
+	margin-left: 80px;
+}
+.tw {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.web {
+	margin-left: 10px;
 }
