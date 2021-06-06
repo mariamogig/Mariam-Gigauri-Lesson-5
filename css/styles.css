@@ -116,17 +116,25 @@ h3 {
 	color: white;
 }
 /*section 2*/
+.container {
+	width: 1160px;
+	margin-left: 70px;
+}
 .now {
 	display: inline-block;
-	width: 760px;
-	height: 430px;
-	background-color: gray;
-	margin-left: 70px;
+    width: 760px;
+    vertical-align: top;
 }
 .now2 {
 	display: inline-block;
-	margin-top: : 100px;
-    margin-left: 70px;
-	width: 760px;
-	height: 430px;
+    width: 360px;
+    vertical-align: top;
+    margin-left: 40px;
+}
+.img1 {
+	margin-bottom: 40px;
+}
+.img4 {
+	margin-top: 102px;
+	margin-bottom: 102px;
 }
